@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Second from '../components/Second';
 import { IoArrowForwardSharp } from 'react-icons/io5';
 import { useGSAP } from '@gsap/react';
-import gsap, { ScrollTrigger } from 'gsap/all';
+import gsap, { Linear, ScrollTrigger } from 'gsap/all';
 
 // in a fresh project 
 const Home = () => {
@@ -27,7 +27,7 @@ const loaderRef = useRef(null)
 
     gsap.to(loaderRef.current, {
       opacity: 0,
-      duration: 2.5,
+      duration: 1,
       delay: 2,
     });
   }, [])
@@ -54,7 +54,7 @@ const loaderRef = useRef(null)
     tl.to(thirdimg.current,{y:'0%' , opacity:100})
     tl.to(fourthimg.current,{y:'0%' , opacity:100})
     tl.to(fifthimg.current,{y:'0%' , opacity:100})
-    tl.to(fifthimg.current,{delay:1})
+    tl.to(fifthimg.current,{delay:0.5})
 
 
     

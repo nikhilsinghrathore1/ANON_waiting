@@ -40,7 +40,7 @@ tl.to(third.current,{
   y:"0%"
 })
 tl.to(third.current,{
-  delay:1
+  delay:0.6
 })
 
 },[])
@@ -61,26 +61,26 @@ tl.to(third.current,{
       {/* this is the card div */}
       <div ref={first} className='relative flex flex-col items-center justify-between p-5 w-[90%] md:w-[30%] h-auto md:h-[75%] mt-5 md:mt-0 bg-[#FFEAD7] border-[1px] border-black rounded-3xl md:absolute md:top-[15%] md:right-[15%]'>
         <h1 className='text-[24px] md:text-[30px] text-center font-semibold'>
-          AI-Generated Wearables & Smart Devices for B2C and B2B!
+          AI-Generated Apps & Smart Contracts for your web3 journey!
         </h1>
         <div className='w-full h-[45%]'>
           <img className='w-full h-full object-contain' src="https://www.polecat.agency/static/images/services/card-1.webp" alt="not showing" />
         </div>
         <p className='text-[18px] md:text-[22px] w-[80%] f2 text-center leading-[1.2]'>
-          Let’s engineer your next smart device for every purpose both B2C and B2B
+          Let’s engineer your next smart apps for every purpose both web2 and web3
         </p>
       </div>
 
       {/* this is the spider image section  */}
       <div ref={second} className='relative flex flex-col items-center justify-between p-5 w-[90%] md:w-[30%] h-auto md:h-[75%] mt-5 md:mt-0 bg-[#FFEAD7] border-[1px] border-black rounded-3xl md:absolute md:top-[10%] md:right-[35%]'>
         <h1 className='text-[24px] md:text-[30px] text-center font-semibold leading-[1.4]'>
-          HIGH LOAD WEB APPLICATIONS AND INTRANETS
+        HIGH-LOAD WEB AND NATIVE APPS ON THE ARWEAVE CHAIN
         </h1>
         <div className='w-full h-[50%]'>
           <img className='w-full h-full object-contain' src="https://www.polecat.agency/static/images/services/card-2.webp" alt="not showing" />
         </div>
         <p className='text-[18px] md:text-[22px] w-[80%] f2 text-center leading-[1.2]'>
-          We contribute apps that can save lives for workers team
+          We contribute apps that can change lives for web3 Developers
         </p>
       </div>
 
@@ -93,7 +93,7 @@ tl.to(third.current,{
           <img className='w-full h-full object-contain' src="https://www.polecat.agency/static/images/services/card-3.webp" alt="not showing" />
         </div>
         <p className='text-[18px] md:text-[22px] w-[80%] f2 text-center leading-[1.2]'>
-          Our clients raised more than $30 mil with MVPs developed with us
+          supported react, expo, and scalable mvp developed with us
         </p>
       </div>
     </div>
