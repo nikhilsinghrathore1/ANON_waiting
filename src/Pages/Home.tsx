@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Second from '../components/Second';
 import { IoArrowForwardSharp } from 'react-icons/io5';
 import { useGSAP } from '@gsap/react';
-import gsap, { Linear, ScrollTrigger } from 'gsap/all';
+import gsap, { ScrollTrigger } from 'gsap/all';
 
 // in a fresh project 
 const Home = () => {
