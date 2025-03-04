@@ -44,9 +44,9 @@ const loaderRef = useRef(null)
       scrollTrigger:{
         trigger:thirdPin.current,
         start : "200px 0" , 
-        end : "2000px 0",
+        end : "4000px 0",
         pin:true,
-        scrub:5,
+        scrub:1,
       }
     })
     tl.to(firstimg.current,{y:'0%' , opacity:100})
@@ -54,6 +54,7 @@ const loaderRef = useRef(null)
     tl.to(thirdimg.current,{y:'0%' , opacity:100})
     tl.to(fourthimg.current,{y:'0%' , opacity:100})
     tl.to(fifthimg.current,{y:'0%' , opacity:100})
+    tl.to(fifthimg.current,{delay:1})
 
 
     

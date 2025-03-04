@@ -25,8 +25,8 @@ let tl = gsap.timeline({
     trigger:pin.current,
     pin:true,
     start:"0 0",
-    end:"2000px 0" , 
-    scrub:10,
+    end:"3000px 0" , 
+    scrub:5,
   },
   
 })
@@ -38,6 +38,9 @@ tl.to(second.current,{
 })
 tl.to(third.current,{
   y:"0%"
+})
+tl.to(third.current,{
+  delay:1
 })
 
 },[])
