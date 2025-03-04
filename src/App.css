@@ -1,0 +1,88 @@
+*{
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}
+
+
+@font-face {
+  font-family: font1;
+  src: url("/ABCCamera-Regular.52746e65.ttf");
+}
+@font-face {
+  font-family: font2;
+  src: url("/ABCCameraPlain-Regular.b3ca9b5c.ttf");
+}
+
+@font-face {
+  font-family: font3;
+  src: url(/SF-Pro-Display-Bold.otf);
+}
+@font-face {
+  font-family: font4;
+  src: url(/SF-Pro-Display-Light.otf);
+}
+
+@font-face {
+  font-family: font5;
+  src: url(/SF-Pro-Display-Regular.otf);
+}
+@font-face {
+  font-family: font6;
+  src: url(/CircularXXWeb-Book.ttf);
+}
+
+@font-face {
+  font-family: font7;
+  src: url(/Gilroy-Bold.ttf);
+}
+@font-face {
+  font-family: font8;
+  src: url(/Gilroy-Light.ttf);
+}
+@font-face {
+  font-family: font9;
+  src: url(/Gilroy-Medium.ttf);
+}
+
+
+
+.f1{
+  font-family: font1;
+}
+.f2{
+  font-family: font2;
+}
+.f3{
+  font-family: font6;
+}
+.f4{
+  font-family: font4;
+}
+.f5{
+  font-family: font5;
+}
+.f6{
+  font-family: font6;
+}
+.f7{
+  font-family: font7;
+}
+.f8{
+  font-family: font8;
+}
+.f9{
+  font-family: font9;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+*{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+

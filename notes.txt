@@ -1,0 +1,1 @@
+from the next time i have to make an instruction file that will hold the data about the margin and paddings 
