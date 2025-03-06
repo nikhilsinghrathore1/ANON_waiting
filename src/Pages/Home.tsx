@@ -15,7 +15,7 @@ const secondimg = useRef(null)
 const thirdimg = useRef(null)
 const fourthimg = useRef(null)
 const fifthimg = useRef(null)
-const loaderRef = useRef(null)
+const loaderRef = useRef<HTMLDivElement>(null);
 
 
 
@@ -27,8 +27,13 @@ const loaderRef = useRef(null)
 
     gsap.to(loaderRef.current, {
       opacity: 0,
-      duration: 1,
+      duration: 2,
       delay: 2,
+      onComplete: () => {
+        if (loaderRef.current) {
+          loaderRef.current.style.display = "none";
+        }
+      }
     });
   }, [])
   
@@ -68,7 +73,7 @@ const loaderRef = useRef(null)
 
     <div className='bg-[#FFEAD7] h-fit relative'>
 
-<div ref={loaderRef} className='absolute z-[100] w-full h-screen  flex items-center justify-center bg-[#09090B]  transition-opacity duration-500'>
+<div ref={loaderRef} className='absolute z-[300] w-full h-screen  flex items-center justify-center bg-[#09090B]  transition-opacity duration-500'>
           <div className='text-white text-lg animate-pulse f3'>Experience Arweave</div>
         </div>
       {/* the absolute navbar */}

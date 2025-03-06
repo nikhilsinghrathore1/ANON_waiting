@@ -1,18 +1,16 @@
-import { IoMenuOutline } from "react-icons/io5";
 
 // done for now
 
 const Navbar = () => {
   return (
-    <div className='w-full h-screen fixed z-10 top-0'>
+    <div className='w-full h-screen z-[200] fixed  top-0'>
     {/* nav bar section  */}
     <div className="flex sticky top-0 px-5 md:px-10 py-3 w-full items-center justify-between">
       <div className="w-fit px-4 md:px-5 py-1 rounded-2xl font-medium cursor-pointer text-black bg-white border-[1px] uppercase border-black f2 text-[18px] md:text-[23px] tracking-tight">
         anon agency
       </div>
-      <div className="w-fit flex items-center gap-2 px-4 md:px-5 py-1 rounded-2xl font-medium cursor-pointer text-black bg-white border-[1px] uppercase border-black f2 text-[18px] md:text-[23px] tracking-tight">
-        <h1>menu</h1>
-        <IoMenuOutline size={20} />
+      <div onClick={() => window.open("https://forms.gle/npe2LSkhpwjkffmD9", "_blank")} className="w-fit z-[200] flex items-center gap-2 px-4 md:px-5 py-1 rounded-2xl font-medium cursor-pointer text-black bg-white border-[1px] uppercase border-black f2 text-[18px] md:text-[23px] tracking-tight">
+        <h1>JOIN US</h1>
       </div>
     </div>
 
@@ -31,7 +29,7 @@ const Navbar = () => {
         <h1 className="w-full md:w-[84%] text-[18px] md:text-[22px] font-semibold text-center md:text-left">
           Join the waitlist and be the first to experience Anon, enhance your journey with <span className="underline">Arweave</span>
         </h1>
-        <div className="w-fit mt-3 md:mt-0 px-4 py-1 rounded-2xl font-medium cursor-pointer text-black bg-white border-[2px] uppercase border-black f2 text-[18px] md:text-[23px] tracking-tight">
+        <div onClick={() => window.open("https://forms.gle/npe2LSkhpwjkffmD9", "_blank")} className="w-fit mt-3 md:mt-0 px-4 py-1 rounded-2xl font-medium cursor-pointer text-black bg-white border-[2px] uppercase border-black f2 text-[18px] md:text-[23px] tracking-tight">
           JOIN
         </div>
       </div>

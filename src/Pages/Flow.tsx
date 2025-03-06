@@ -13,13 +13,13 @@ export default function Flow() {
       )}
       <Spline
       className='w-full h-full object-contain '
-        scene="https://prod.spline.design/6hLLFaIKg0bSUUFF/scene.splinecode"
-        onLoad={() => setLoading(false)}        
+      scene="https://prod.spline.design/6hLLFaIKg0bSUUFF/scene.splinecode" 
+      onLoad={() => setTimeout(() => setLoading(false), 1000)}
+
       />
       <div className='w-full h-[5%] bg-black absolute bottom-5 right-5'></div>
     </main>
 
-    // done 
   );
 
 }
